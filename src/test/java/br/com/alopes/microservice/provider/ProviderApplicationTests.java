@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.fornecedor;
+package br.com.alopes.microservice.provider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FornecedorApplicationTests {
+public class ProviderApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,17 +1,17 @@
-package br.com.alopes.microservice.fornecedor.service;
+package br.com.alopes.microservice.provider.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import br.com.alopes.microservice.fornecedor.model.PedidoItem;
+import br.com.alopes.microservice.provider.model.PedidoItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alopes.microservice.fornecedor.dto.ItemDoPedidoDTO;
-import br.com.alopes.microservice.fornecedor.model.Pedido;
-import br.com.alopes.microservice.fornecedor.model.Produto;
-import br.com.alopes.microservice.fornecedor.repository.PedidoRepository;
-import br.com.alopes.microservice.fornecedor.repository.ProdutoRepository;
+import br.com.alopes.microservice.provider.dto.ItemDoPedidoDTO;
+import br.com.alopes.microservice.provider.model.Pedido;
+import br.com.alopes.microservice.provider.model.Produto;
+import br.com.alopes.microservice.provider.repository.PedidoRepository;
+import br.com.alopes.microservice.provider.repository.ProdutoRepository;
 
 @Service
 public class PedidoService {

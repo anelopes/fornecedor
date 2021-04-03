@@ -8,11 +8,11 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>br.com.alura.microservice.fornecedor</groupId>
-    <artifactId>fornecedor</artifactId>
+    <groupId>br.com.alopes.microservice</groupId>
+    <artifactId>ms-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fornecedor</name>
-    <description>Fornecedor</description>
+    <name>ms-provider</name>
+    <description>Projeto para exemplificar o uso de uma API de Fornecedor</description>
 
     <properties>
         <java.version>1.8</java.version>

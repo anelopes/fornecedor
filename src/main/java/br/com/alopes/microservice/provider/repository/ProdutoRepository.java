@@ -1,10 +1,10 @@
-package br.com.alopes.microservice.fornecedor.repository;
+package br.com.alopes.microservice.provider.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.alopes.microservice.fornecedor.model.Produto;
+import br.com.alopes.microservice.provider.model.Produto;
 
 public interface ProdutoRepository extends CrudRepository<Produto, Long>{
 

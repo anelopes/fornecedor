@@ -1,9 +1,9 @@
-package br.com.alopes.microservice.fornecedor.controller;
+package br.com.alopes.microservice.provider.controller;
 
 import java.util.List;
 
-import br.com.alopes.microservice.fornecedor.model.Pedido;
-import br.com.alopes.microservice.fornecedor.service.PedidoService;
+import br.com.alopes.microservice.provider.model.Pedido;
+import br.com.alopes.microservice.provider.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alopes.microservice.fornecedor.dto.ItemDoPedidoDTO;
+import br.com.alopes.microservice.provider.dto.ItemDoPedidoDTO;
 
 @RestController
 @RequestMapping("pedido")

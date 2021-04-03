@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.fornecedor.dto;
+package br.com.alopes.microservice.provider.dto;
 
 public class ReservaDTO {
 

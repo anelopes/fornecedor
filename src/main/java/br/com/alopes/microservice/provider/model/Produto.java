@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.fornecedor.model;
+package br.com.alopes.microservice.provider.model;
 
 import java.math.BigDecimal;
 

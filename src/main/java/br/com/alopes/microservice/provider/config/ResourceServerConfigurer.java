@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.fornecedor.config;
+package br.com.alopes.microservice.provider.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

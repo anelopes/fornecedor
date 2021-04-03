@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.fornecedor;
+package br.com.alopes.microservice.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @SpringBootApplication
 @EnableResourceServer
-public class FornecedorApplication {
+public class ProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FornecedorApplication.class, args);
+        SpringApplication.run(ProviderApplication.class, args);
     }
 
 }

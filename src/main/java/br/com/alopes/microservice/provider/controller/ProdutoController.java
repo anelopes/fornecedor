@@ -1,14 +1,14 @@
-package br.com.alopes.microservice.fornecedor.controller;
+package br.com.alopes.microservice.provider.controller;
 
 import java.util.List;
 
-import br.com.alopes.microservice.fornecedor.service.ProdutoService;
+import br.com.alopes.microservice.provider.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.com.alopes.microservice.fornecedor.model.Produto;
+import br.com.alopes.microservice.provider.model.Produto;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
