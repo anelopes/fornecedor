@@ -11,7 +11,7 @@ public class ResourceServerConfigurer extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers(HttpMethod.POST, "/pedido")
+                .antMatchers(HttpMethod.POST, "/order")
                 .hasRole("USER");
     }
 }
