@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-public class Order {
+public class Order1 { //O "1" é apenas para conseguir criar a tabela no banco. Pois somente "order" é entendido como uma palavra reservada do sql
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,13 +16,13 @@ public class Order {
     private OrderStatus status;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "orderId")
+    @JoinColumn(name = "order1Id")
     private List<OrderItem> items;
 
-    public Order() {
+    public Order1() {
     }
 
-    public Order(List<OrderItem> items) {
+    public Order1(List<OrderItem> items) {
         this.items = items;
         this.status = OrderStatus.RECEIVED;
     }

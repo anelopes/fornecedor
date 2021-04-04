@@ -1,7 +1,7 @@
 package br.com.alopes.microservice.provider.service;
 
 import br.com.alopes.microservice.provider.dto.OrderItemDTO;
-import br.com.alopes.microservice.provider.model.Order;
+import br.com.alopes.microservice.provider.model.Order1;
 import br.com.alopes.microservice.provider.model.OrderItem;
 import br.com.alopes.microservice.provider.model.Product;
 import br.com.alopes.microservice.provider.repository.OrderRepository;
@@ -21,20 +21,20 @@ public class OrderService {
     @Autowired
     private ProductRepository productRepository;
 
-    public Order doOrder(List<OrderItemDTO> items) {
+    public Order1 doOrder(List<OrderItemDTO> items) {
 
         if (items == null) {
             return null;
         }
 
         List<OrderItem> list = toOrderItem(items);
-        Order order = new Order(list);
-        order.setPreparationTime(items.size());
-        return orderRepository.save(order);
+        Order1 order1 = new Order1(list);
+        order1.setPreparationTime(items.size());
+        return orderRepository.save(order1);
     }
 
-    public Order getById(Long id) {
-        return this.orderRepository.findById(id).orElse(new Order());
+    public Order1 getById(Long id) {
+        return this.orderRepository.findById(id).orElse(new Order1());
     }
 
     private List<OrderItem> toOrderItem(List<OrderItemDTO> items) {
